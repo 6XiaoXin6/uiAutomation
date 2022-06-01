@@ -1,0 +1,24 @@
+{
+  "uuid": "0738a6c1-fcbd-4290-8251-7bdd9102fd27",
+  "children": [
+    "95742277-051c-468a-a2c5-c2521c452d0c"
+  ],
+  "befores": [
+    {
+      "name": "_unittest_setUpClass_fixture_BaiDuTest",
+      "status": "passed",
+      "start": 1654063669384,
+      "stop": 1654063671224
+    }
+  ],
+  "afters": [
+    {
+      "name": "_unittest_setUpClass_fixture_BaiDuTest::0",
+      "status": "passed",
+      "start": 1654063679170,
+      "stop": 1654063679170
+    }
+  ],
+  "start": 1654063669384,
+  "stop": 1654063679170
+}

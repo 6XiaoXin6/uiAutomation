@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "xiaoxin",
+    "children" : [ {
+      "name" : "27416-MainThread",
+      "children" : [ {
+        "name" : "test_10",
+        "uid" : "cafedcf86cce7dcb",
+        "parentUid" : "43412a0581af0b3b3b62da65554a5c07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654063671226,
+          "stop" : 1654063679170,
+          "duration" : 7944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_1",
+        "uid" : "81b84605bcc10e40",
+        "parentUid" : "43412a0581af0b3b3b62da65554a5c07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654063679173,
+          "stop" : 1654063694290,
+          "duration" : 15117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43412a0581af0b3b3b62da65554a5c07"
+    } ],
+    "uid" : "1744b2f1956fbadf8e06f9bdc5c56fa0"
+  } ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "POM.cases",
+    "children" : [ {
+      "name" : "baidu_test",
+      "children" : [ {
+        "name" : "BaiDuTest",
+        "children" : [ {
+          "name" : "test_10",
+          "uid" : "cafedcf86cce7dcb",
+          "parentUid" : "87e04fbfe83992c5806cfae8859ede4e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1654063671226,
+            "stop" : 1654063679170,
+            "duration" : 7944
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "87e04fbfe83992c5806cfae8859ede4e"
+      } ],
+      "uid" : "5c4199234ae56f25960141224f785006"
+    }, {
+      "name" : "login_test",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login_1",
+          "uid" : "81b84605bcc10e40",
+          "parentUid" : "5e52e65eb14296fe2c0216be061decd6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1654063679173,
+            "stop" : 1654063694290,
+            "duration" : 15117
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5e52e65eb14296fe2c0216be061decd6"
+      } ],
+      "uid" : "56ef330b2dff7719bdb4179ca36a9f92"
+    } ],
+    "uid" : "306f26fa626689fca3a8e1cdda432d3e"
+  } ]
+}

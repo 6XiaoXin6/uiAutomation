@@ -1,0 +1,44 @@
+{
+  "name": "test_10",
+  "status": "passed",
+  "start": 1654063671226,
+  "stop": 1654063679170,
+  "uuid": "95742277-051c-468a-a2c5-c2521c452d0c",
+  "historyId": "cc6cffe9ba43fac0071031a11cfa0cc1",
+  "testCaseId": "2e5450d707115dee2d97231d8806ecdb",
+  "fullName": "POM.cases.baidu_test.BaiDuTest#test_10",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "POM.cases"
+    },
+    {
+      "name": "suite",
+      "value": "baidu_test"
+    },
+    {
+      "name": "subSuite",
+      "value": "BaiDuTest"
+    },
+    {
+      "name": "host",
+      "value": "xiaoxin"
+    },
+    {
+      "name": "thread",
+      "value": "27416-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "POM.cases.baidu_test"
+    }
+  ]
+}

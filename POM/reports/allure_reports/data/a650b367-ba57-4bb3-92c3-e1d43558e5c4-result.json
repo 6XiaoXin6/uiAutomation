@@ -1,0 +1,44 @@
+{
+  "name": "test_login_1",
+  "status": "passed",
+  "start": 1654063679173,
+  "stop": 1654063694290,
+  "uuid": "2b773304-f686-40e1-97e1-5d6474deee41",
+  "historyId": "a7a546154a40e28e89cde06ed0be8db7",
+  "testCaseId": "fcddf23daaf0763b39a3cf2d2830d07f",
+  "fullName": "POM.cases.login_test.TestLogin#test_login_1",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "POM.cases"
+    },
+    {
+      "name": "suite",
+      "value": "login_test"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "xiaoxin"
+    },
+    {
+      "name": "thread",
+      "value": "27416-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "POM.cases.login_test"
+    }
+  ]
+}
