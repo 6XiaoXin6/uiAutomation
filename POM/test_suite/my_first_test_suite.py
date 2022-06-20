@@ -20,10 +20,10 @@ ts = TestSuite()
 tests = [BaiDuTest('test_10'), TestLogin('test_login_1')]
 ts.addTests(tests)
 # 3
-# tests=defaultTestLoader.discover(start_dir='../cases/',pattern='*test.py')
+# tests=defaultTestLoader.discover(start_dir='../reports/',pattern='*test.py')
 # 4
 # ts.addTests(unittest.TestLoader().loadTestsFromTestCase(BaiDuTest))
-# ts.addTests(unittest.TestLoader().loadTestsFromName('POM.cases.baidu_test.BaiDuTest'))
+# ts.addTests(unittest.TestLoader().loadTestsFromName('POM.reports.baidu_test.BaiDuTest'))
 # tr=TextTestRunner()
 # tr.run(ts)
 p = "../reports/htmltestrunner_reports/report.html"

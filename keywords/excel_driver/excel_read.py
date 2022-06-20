@@ -7,14 +7,13 @@ __author__ = 'List.Xie'
 
 import openpyxl
 
-from keywords.keys.keys import Keys
+from keywords.keywords.keys import Keys
 
-excel = openpyxl.load_workbook("../data/new_data.xlsx")
+excel = openpyxl.load_workbook("../testcases/new_data.xlsx")
 
 
 def args2dict(value):
     args = {}
-
     if value[2]:
         for s in value[2].split(";"):
             d = s.split('=', 1)
@@ -27,11 +26,10 @@ for sheet in excel:
     for value in sheet.values:
         if isinstance(value[0], int):
             print(f"======{value[1]}:正在{value[3]}======")
-            # data = {"arg1": value[2], "arg2": value[3], "arg3": value[4]}
             data = args2dict(value)
-            for key in list(data.keys()):
-                if not data[key]:
-                    del data[key]
+            # for key in list(data.keys()):
+            #     if not data[key]:
+            #         del data[key]
             if value[1] == "open_browser":
                 k = Keys(**data)
             elif "assert" in value[1]:
@@ -41,4 +39,3 @@ for sheet in excel:
                     print('断言失败')
             else:
                 getattr(k, value[1])(**data)
-    print()

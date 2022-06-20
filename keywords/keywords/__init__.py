@@ -6,6 +6,3 @@
 __author__ = 'List.Xie'
 
 from icecream import ic
-import openpyxl
-
-excel=openpyxl.load_workbook("../testcases/data.xlsx")

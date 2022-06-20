@@ -19,7 +19,7 @@ class BaiDuTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         # cls.bd = BaiDu(browser="Chrome")
-        cls.bd = BaiDu(browser="Chrome")
+        cls.bd = BaiDu(browser="Edge")
 
     def test_10(self):
         self.bd.research("UI自动化")
@@ -31,7 +31,7 @@ class BaiDuTest(unittest.TestCase):
     # def setUp(self):
     #     print("正在打开浏览器...")
     #
-    # @data("刘亦菲", "刘德华", "蓝洁瑛")
+    # @testcases("刘亦菲", "刘德华", "蓝洁瑛")
     # def test_0(self, name):
     #     self.bd.research(name)
     #     sleep(3)
@@ -40,13 +40,13 @@ class BaiDuTest(unittest.TestCase):
     #     print(text)
     #     assert text == "更多"
     #
-    # @data(("a", 1), ("b", 2))
+    # @testcases(("a", 1), ("b", 2))
     # @unpack
     # def test_1(self, char, value):
     #     # self.bd.research("selenium1")
     #     assert value == 1
     #
-    # @file_data("../data/research.yaml")
+    # @file_data("../testcases/research.yaml")
     # @unpack
     # def test_2(self, name, age):
     #     print(name)

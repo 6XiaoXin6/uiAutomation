@@ -44,10 +44,5 @@ class Keys:
 
 
 def open_browser(browser):
-    try:
-        driver = getattr(webdriver, browser)()
-        # driver = getattr(webdriver, browser,'no this browser driver')()
-    except Exception as e:
-        driver = webdriver.Chrome()
+    driver = getattr(webdriver, browser, webdriver.Chrome)()
     return driver
-# open()
