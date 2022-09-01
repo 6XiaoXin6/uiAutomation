@@ -1,3 +1,3 @@
 # My uiAutomation
-1.KWD
-2.POM
+1. KWD
+2. POM
