@@ -7,9 +7,9 @@ __author__ = 'List.Xie'
 
 import openpyxl
 
-from keywords.keywords.keys import Keys
+from KWD.common.keys import Keys
 
-excel = openpyxl.load_workbook("../testcases/new_data.xlsx")
+excel = openpyxl.load_workbook("../cases/new_data.xlsx")
 
 
 def args2dict(value):

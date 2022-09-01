@@ -8,4 +8,4 @@ __author__ = 'List.Xie'
 from icecream import ic
 import openpyxl
 
-excel=openpyxl.load_workbook("../testcases/data.xlsx")
+excel=openpyxl.load_workbook("../cases/data.xlsx")

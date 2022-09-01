@@ -179,7 +179,7 @@ allure.api.addTab('behaviors', {
             tabName: 'tab.behaviors.name',
             baseUrl: 'behaviors',
             url: 'data/behaviors.json',
-            csvUrl: 'testcases/behaviors.csv'
+            csvUrl: 'cases/behaviors.csv'
         });
     })
 });

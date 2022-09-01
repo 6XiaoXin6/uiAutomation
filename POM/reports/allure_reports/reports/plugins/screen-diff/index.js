@@ -17,7 +17,7 @@
                 return attachment.name === name;
             })[0];
             if (matchedImage) {
-                return 'testcases/attachments/' + matchedImage.source;
+                return 'cases/attachments/' + matchedImage.source;
             }
         }
         return null;
@@ -46,7 +46,7 @@
         if (actualImage) {
             return renderImage(actualImage);
         }
-        return 'No diff testcases provided';
+        return 'No diff cases provided';
     }
 
     var TestResultView = Backbone.Marionette.View.extend({

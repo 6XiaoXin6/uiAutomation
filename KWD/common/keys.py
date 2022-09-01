@@ -41,7 +41,8 @@ class Keys:
         except Exception as e:
             print(e)
             return False
-
+    def get_page_title(self):
+        return self.driver.title
 
 def open_browser(browser):
     driver = getattr(webdriver, browser, webdriver.Chrome)()
